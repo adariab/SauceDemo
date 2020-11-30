@@ -31,7 +31,6 @@ public class SauceDemoTests {
         returnElementNamesAndPrices();
 
         Assert.assertEquals(actualUrl, "https://www.saucedemo.com/inventory.html");
-
     }
 
 
