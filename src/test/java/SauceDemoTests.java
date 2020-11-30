@@ -37,6 +37,7 @@ public class SauceDemoTests {
     public void returnElementNamesAndPrices() {
         List<WebElement> elementsNames = driver.findElements(By.xpath("//div[@class='inventory_item_name']"));
         List<WebElement> elementsPrices = driver.findElements(By.xpath("//div[@class='inventory_item_price']"));
+
         for (int i = 0; i < elementsNames.size(); i++) {
             log.info(elementsNames.get(i).getText() + "\t" + elementsPrices.get(i).getText());
         }
