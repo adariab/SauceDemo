@@ -1,0 +1,14 @@
+Logo
+	By.xpath(“//div[@class='login_logo']”)
+username field
+	By.id("user-name")
+Password field
+	By.id("password")
+Login button
+	By.id("login-button")
+Image
+	By.xpath(“//img[@class='bot_column']")
+Area with accepted usernames:
+	By.id("login_credentials")
+Area with password for all users
+	By.xpath("//div[@class='login_password']")
